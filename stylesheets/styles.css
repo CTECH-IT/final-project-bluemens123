@@ -1,1 +1,24 @@
 /* Put your CSS here */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #ddd;
+}
+#board{
+	width: 600px;
+	height: 600px;
+	border:3px #333 solid;
+}
+#board div div{
+	float: left;
+	width: 75px;
+	height: 75px;
+	box-sizing:border-box;
+	border: #000 solid .01cm;
+}
+
+#board .even div:nth-child(even){
+	background: #ccd;
+}
